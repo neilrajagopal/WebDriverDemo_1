@@ -12,8 +12,9 @@ public class MenuHandling {
 		WebDriver driver = new ChromeDriver();
 		//Testing
 		driver.get("http://demo.automationtesting.in/Alerts.html");
-		
+		//Screen1
 		Actions act = new Actions(driver);
+		//Screen2
 		act.moveToElement(driver.findElement(By.linkText("SwitchTo"))).perform();
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Windows")).click();
