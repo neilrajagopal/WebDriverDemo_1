@@ -12,7 +12,7 @@ public class MenuHandling {
 		WebDriver driver = new ChromeDriver();
 		//Testing
 		driver.get("http://demo.automationtesting.in/Alerts.html");
-		//Screen3
+		//Screen34
 		Actions act = new Actions(driver);
 		act.moveToElement(driver.findElement(By.linkText("SwitchTo"))).perform();
 		Thread.sleep(3000);
