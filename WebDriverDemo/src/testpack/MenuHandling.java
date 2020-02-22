@@ -10,7 +10,7 @@ public class MenuHandling {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Neel\\Desktop\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-
+		//Testing
 		driver.get("http://demo.automationtesting.in/Alerts.html");
 		
 		Actions act = new Actions(driver);
