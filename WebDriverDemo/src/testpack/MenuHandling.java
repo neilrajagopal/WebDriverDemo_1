@@ -10,12 +10,8 @@ public class MenuHandling {
 	public static void main(String[] args) throws InterruptedException {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Neel\\Desktop\\driver\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
-		//Testing
 		driver.get("http://demo.automationtesting.in/Alerts.html");
-		//Screen34
-		//Screen1
 		Actions act = new Actions(driver);
-		//Screen2
 		act.moveToElement(driver.findElement(By.linkText("SwitchTo"))).perform();
 		Thread.sleep(3000);
 		driver.findElement(By.linkText("Windows")).click();
